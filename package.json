@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/acorbinelli/homechef/issues"
   },
-  "homepage": "https://github.com/acorbinelli/homechef#readme"
+  "homepage": "https://github.com/acorbinelli/homechef#readme",
+  "devDependencies": {
+    "sass": "^1.32.7"
+  }
 }
