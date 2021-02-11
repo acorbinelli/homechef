@@ -1,0 +1,19 @@
+{
+  "name": "homechef",
+  "version": "1.0.0",
+  "description": "Fictional project for chef at home service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorbinelli/homechef.git"
+  },
+  "author": "Alessandro Corbinelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acorbinelli/homechef/issues"
+  },
+  "homepage": "https://github.com/acorbinelli/homechef#readme"
+}
