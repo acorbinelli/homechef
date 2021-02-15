@@ -28,10 +28,11 @@ body {
   text-transform: uppercase; }
 
 .hero {
-  display: block;
-  background-color: black;
-  width: 100px;
-  height: 100px; }
+  display: block; }
+  .hero__heading {
+    display: block;
+    text-align: center;
+    height: 10rem; }
 
 .navigation {
   user-select: none;

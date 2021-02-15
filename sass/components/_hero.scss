@@ -1,6 +1,9 @@
 .hero {
   display: block;
-  background-color: black;
-  width: 100px;
-  height: 100px;
+  &__heading {
+    display: block;
+    text-align: center;
+
+    height: $height-medium;
+  }
 }
