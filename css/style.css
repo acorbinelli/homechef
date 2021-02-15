@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #fffaf2; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #667e74; }
+
+.link,
+.link:visited,
+.link:active {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #667e74; }
+
+.heading-primary {
+  font-size: 4rem;
+  text-transform: uppercase; }
+
+.hero {
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 100px; }
+
+.navigation {
+  user-select: none;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .navigation__icon,
+  .navigation .vertical-line {
+    height: 100%; }
+  .navigation__item:hover {
+    background-color: #99bbad; }
+  .navigation__item:hover a {
+    color: #f7e9d3; }
+  .navigation__item {
+    position: relative;
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.6rem;
+    animation-fill-mode: forwards;
+    backface-visibility: hidden;
+    transition: all 0.2s;
+    border-radius: 6px; }
+    .navigation__item:hover .underline {
+      opacity: 1;
+      right: 0; }
+    .navigation__item .underline {
+      opacity: 0;
+      width: 100%;
+      position: relative;
+      top: 2px;
+      right: -50%;
+      border-bottom: 2px solid #f7e9d3;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      transition: all 0.7s ease; }
+  .navigation .vertical-line {
+    border-left: 2px solid #99bbad; }
+  .navigation__icon {
+    margin-left: 1rem; }
+
+.header {
+  height: 98vh; }
+  .header__navbar {
+    height: 5rem;
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+    background-color: #f7e9d3; }
+  .header__logo-box {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%); }
+    .header__logo-box .logo {
+      height: 100%; }
+  .header__navigation {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    height: 100%;
+    transform: translate(-25%, -50%);
+    overflow: hidden; }
+  .header__hero {
+    height: 100%; }

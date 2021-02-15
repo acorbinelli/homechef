@@ -1,0 +1,36 @@
+.header {
+  height: 98vh;
+
+  &__navbar {
+    height: $height-small;
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+    background-color: $color-white-3;
+  }
+
+  &__logo-box {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    .logo {
+      height: 100%;
+    }
+  }
+
+  &__navigation {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    height: 100%;
+    transform: translate(-25%, -50%);
+    overflow: hidden;
+  }
+
+  &__hero {
+    height: 100%;
+  }
+}
