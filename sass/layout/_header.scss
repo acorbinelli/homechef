@@ -1,37 +1,41 @@
 .header {
-  height: 98vh;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-green-light-2, 0.5),
+      rgba($color-blue, 0.5) 40%
+    ),
+    url("../img/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 
-  &__navbar {
-    height: $height-small;
-    position: relative;
-    overflow: hidden;
-    backface-visibility: hidden;
-    background-color: $color-white-3;
-    margin-bottom: $margin-big;
-  }
+  &__logo {
+    height: 10rem;
 
-  &__logo-box {
-    height: 80%;
     position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-25%, -50%);
-    .logo {
-      height: 100%;
-    }
+    top: 3rem;
+    left: 3rem;
+    transform: rotate(-20deg);
   }
 
-  &__navigation {
-    box-sizing: border-box;
+  &__logo-text {
+    width: 50rem;
+    border-radius: 30px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-green-light-2, 0.5),
+      rgba($color-blue, 0.5) 40%
+    );
+
+    color: $color-green-light-1;
+
+    @include absoluteCenter;
+  }
+  &__button {
     position: absolute;
-    top: 50%;
-    right: 25%;
-    height: 100%;
-    transform: translate(-25%, -50%);
-    overflow: hidden;
-  }
-
-  &__hero {
-    height: 50%;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

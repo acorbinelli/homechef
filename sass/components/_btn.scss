@@ -1,0 +1,14 @@
+.btn {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $color-green-light-1;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-green-light-2,
+    $color-blue 40%
+  );
+}

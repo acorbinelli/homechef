@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: $color-green-dark-1;
 }
 
 .link,
@@ -9,9 +8,11 @@ body {
 .link:active {
   text-decoration: none;
   font-size: 1.5rem;
-  color: $color-green-dark-1;
 }
 .heading-primary {
   font-size: 4rem;
   text-transform: uppercase;
+}
+.u-heading-main {
+  font-family: "Righteous", cursive;
 }
